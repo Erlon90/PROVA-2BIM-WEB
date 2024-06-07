@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Verifique sua Nota</title>
+</head>
+
+<header>   
+    <h1>Verificar Notas</h1>
+</header>
+
+<body>
+
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="Nome">
+    <br><br>
+    <label for="matricula">Matrícula:</label><br>
+    <input type="text" id="Matricula">
+    <br><br>
+    <label for="nota 1">Nota 1:</label><br>
+    <input type="number" id="nota1">
+    <br><br>
+    <label for="nota 2">Nota 2:</label><br>
+    <input type="number" id="nota2">
+    <br><br>
+    <button onclick="verificarNotas(),limparInputs()">Enviar</button><br>
+    <br>
+    <table id="resultado">
+        <tr>
+            <th>Nome</th>
+            <th>Matrícula</th>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
+            <th>Média</th>
+            <th>Situação</th>
+        </tr>
+    </table>
+
+    <script src="index.js"></script>
+</body>
+
+<footer>
+    <h4>Feito por erlon felipe</h4>
+</footer>
+
+</html>
